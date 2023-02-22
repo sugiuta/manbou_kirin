@@ -9,7 +9,7 @@ body {
 /* Header */
 
 .header {
-    width: 100vw;
+    max-width: 100vw;
     height: 150px;
     box-sizing: border-box;
     background-image: url(https://sugiuta.github.io/manbou_kirin/images/header.png);
