@@ -124,7 +124,7 @@ ul li, ol li {
     text-align: center;
     align-items: center;
     max-width: 90%;
-    margin: 0 auto;
+    margin: auto 0;
 }
 
 /* Youtube */
