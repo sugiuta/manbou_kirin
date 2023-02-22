@@ -8,8 +8,8 @@ body {
 /* Header */
 
 .header {
-    width: 100vw;
-    height: 150px;
+    max-width: fit-content;
+    height: auto;
     box-sizing: border-box;
     background-image: url(https://sugiuta.github.io/manbou_kirin/images/header.png);
     background-position-y: 20%;
