@@ -137,7 +137,7 @@ ul li, ol li {
     overflow:auto;
     -webkit-overflow-scrolling:touch;
     border:2px solid #ccc;
-    text-align: center;
+    align-items: center;
   }
 .iframe-wrap iframe {
     position:absolute;
