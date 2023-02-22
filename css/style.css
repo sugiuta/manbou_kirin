@@ -59,7 +59,7 @@ body {
 }
 
 .heading-2 {
-    font-size: 24px;
+    font-size: 1.2rem;
     padding: 0.25em 0.5em;/*上下 左右の余白*/
     color: #fff;/*文字色*/
     background: transparent;/*背景透明に*/
@@ -67,7 +67,7 @@ body {
 }
 
 .heading-3 {
-    font-size: 20px;
+    font-size: 1rem;
     color: #fff;
 }
 
