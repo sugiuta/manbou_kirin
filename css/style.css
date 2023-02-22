@@ -156,7 +156,7 @@ ul li, ol li {
 
 .button {
     display: inline-block;
-    margin: 16px 16px 0 16px;
+    margin: 16px;
     padding: 10px;
     color: #fff;
     border-radius: 5px;
