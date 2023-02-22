@@ -138,7 +138,7 @@ ul li, ol li {
     -webkit-overflow-scrolling:touch;
     border:2px solid #ccc;
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .iframe-wrap iframe {
@@ -149,6 +149,7 @@ ul li, ol li {
     height:100%;
     border:none;
     display:block;
+    margin: 0 auto;
 }
 
 /* Button */
