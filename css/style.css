@@ -132,11 +132,12 @@ ul li, ol li {
 
 .iframe-wrap {
     position: relative;
-    width: 100%;
+    width: 90%;
     padding-top: 56.25%;
     overflow:auto;
     -webkit-overflow-scrolling:touch;
     border:2px solid #ccc;
+    text-align: center;
   }
 .iframe-wrap iframe {
     position:absolute;
