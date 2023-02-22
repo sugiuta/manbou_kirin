@@ -137,8 +137,8 @@ ul li, ol li {
     overflow:auto;
     -webkit-overflow-scrolling:touch;
     border:2px solid #ccc;
-    align-items: center;
-  }
+}
+
 .iframe-wrap iframe {
     position:absolute;
     top:0;
@@ -147,6 +147,7 @@ ul li, ol li {
     height:100%;
     border:none;
     display:block;
+    margin: auto;
 }
 
 /* Button */
