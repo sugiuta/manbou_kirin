@@ -1,0 +1,166 @@
+
+body {
+    margin: 0;
+    background-color: #222222;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    background-image: url(file:///Users/sugiuta/manbou_kirin/images/header.png);
+    background-position-y: 20%;
+    background-size: cover;
+}
+
+.heading-1 {
+    position: relative;
+    margin: auto;
+	padding: 16px;
+	font-size: 32px;
+	text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.heading-1::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 6px 0 6px;
+	border-color: #fff rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0);
+}
+
+/* Main */
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding: 16px 0 32px;
+    box-sizing: border-box;
+    background-color: #222222;
+}
+
+.content2 {
+    width: 100%;
+    height: 100%;
+    padding: 16px 0 32px;
+    box-sizing: border-box;
+    background-color: #272727;
+}
+
+.heading-2 {
+    font-size: 24px;
+    padding: 0.25em 0.5em;/*上下 左右の余白*/
+    color: #fff;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 8px #4bc093;/*左線*/
+}
+
+.heading-3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.heading-margin {
+    margin: 16px 0 16px;
+}
+
+.text {
+    margin: 16px 0 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.link {
+    color: #4bc093;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Profile */
+
+.profile-image {
+    margin: 16px 0 0;
+    text-align: center;
+}
+
+.profile-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+ul, ol {
+    padding: 0;
+    position: relative;
+  }
+
+ul li, ol li {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 0.5em;
+}
+
+/* Twitter */
+
+.timeline {
+    text-align: center;
+    align-items: center;
+    max-width: 60%;
+    margin: auto;
+    padding: 30px;
+}
+
+/* Youtube */
+
+.youtube {
+    text-align: center;
+    padding: 16px 0;
+}
+
+/* Button */
+
+.button {
+    display: inline-block;
+    margin: 16px 16px 0 16px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    width: 15%;
+}
+
+.twitterColor {
+    background-color: #1da1f2;
+}
+
+.youtubeColor {
+    background-color: #c4302b;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: auto;
+    margin-top: 32px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #ddd;
+}
