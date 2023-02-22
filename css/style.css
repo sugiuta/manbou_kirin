@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: 150px;
     box-sizing: border-box;
-    background-image: url(file:///Users/sugiuta/manbou_kirin/images/header.png);
+    background-image: url(https://sugiuta.github.io/manbou_kirin/images/header.png);
     background-position-y: 20%;
     background-size: cover;
 }
